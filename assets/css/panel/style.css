@@ -1,0 +1,359 @@
+:root {
+    --color-dark: #15181f;
+    --color-dark-x: #2d343f;
+    --color-dark-xx: #1f232b;
+    --color-light: #ffffff;
+    --color-grey: #f5f6f8;
+    --color-input: #f2f2f2;
+    --color-01: #343d46;
+    --BodyColor: #fff;
+    --HtmlColor: #fff;
+    --BotonColor: #f44336;
+    --BotonColor2: #ff5c00;
+    --BotonColorHover: #ff5c00;
+    --BotonColorFocus: #b71c1c;
+    --neutralShade1: #f2f2f2;
+    --neutralShade2: #e8e9e9;
+    --neutralShade3: #d1d3d4;
+    --neutralShade4: #babdbf;
+    --neutralShade5: #808488;
+    --neutralShade6: #666a6d;
+    --neutralShade7: #4d5052;
+    --neutralShade8: #212122;
+    --backgroundColor: #fff;
+    --foregroundColor: #111;
+    --primaryColor: #03a9f4;
+    --primaryShade1: #e1f5fe;
+    --primaryShade2: #b3e5fc;
+    --primaryShade3: #4fc3f7;
+    --primaryShade4: #0288d1;
+    --primaryShade5: #0277bd;
+    --secondaryColor: #673ab7;
+    --secondaryShade1: #ede7f6;
+    --secondaryShade2: #d1c4e9;
+    --secondaryShade3: #9575cd;
+    --secondaryShade4: #512da8;
+    --secondaryShade5: #311b92;
+    --accentColor: #009688;
+    --accentShade1: #e0f2f1;
+    --accentShade2: #b2dfdb;
+    --accentShade3: #4db6ac;
+    --accentShade4: #00796b;
+    --accentShade5: #004d40;
+    --accent2Color: #8bc34a;
+    --accent2Shade1: #e7f6d5;
+    --accent2Shade2: #c5e1a5;
+    --accent2Shade3: #aed581;
+    --accent2Shade4: #689f38;
+    --accent2Shade5: #558b2f;
+    --accent3Color: #f44336;
+    --accent3Shade1: #ffdde0;
+    --accent3Shade2: #ffcdd2;
+    --accent3Shade3: #ef9a9a;
+    --accent3Shade4: #d32f2f;
+    --accent3Shade5: #b71c1c;
+    --grayColor: #999;
+    --lightGrayColor: #ddd;
+    --canvasColor: #f9f9f9;
+    --backgroundColor: #fff;
+    --foregroundColor: #111;
+    --primaryColor: #ff9557;
+    --primaryShade1: #ffe2d1;
+    --primaryShade2: #ffceb2;
+    --primaryShade3: #ffb184;
+    --primaryShade4: #e88850;
+    --primaryShade5: #d17a48;
+    --secondaryColor: #ffcc67;
+    --secondaryShade1: #fff1d5;
+    --secondaryShade2: #ffde9e;
+    --secondaryShade3: #ffd074;
+    --secondaryShade4: #e8ba5e;
+    --secondaryShade5: #ba954b;
+    --accentColor: #4e5166;
+    --accentShade1: #cecfd5;
+    --accentShade2: #aeafb9;
+    --accentShade3: #8e909d;
+    --accentShade4: #6e7081;
+    --accentShade5: #404354;
+    --accent2Color: #588b8b;
+    --accent2Shade1: #c2d4d4;
+    --accent2Shade2: #a3bfbf;
+    --accent2Shade3: #85aaaa;
+    --accent2Shade4: #507f7f;
+    --accent2Shade5: #497272;
+    --accent3Color: #fe5f55;
+    --accent3Shade1: #fec4c1;
+    --accent3Shade2: #fea7a2;
+    --accent3Shade3: #fe7c73;
+    --accent3Shade4: #e7574e;
+    --accent3Shade5: #b9463e;
+    --canvasColor: #2a313b;
+    --backgroundColor: #2a313b;
+    --foregroundColor: #ebe8d8;
+    --primaryColor: #367bc3;
+    --primaryShade5: #b5cfe9;
+    --primaryShade4: #91b7de;
+    --primaryShade3: #5a93cd;
+    --primaryShade2: #3270b2;
+    --primaryShade1: #285a8e;
+    --secondaryColor: #38bfa7;
+    --secondaryShade5: #c8ede7;
+    --secondaryShade4: #92dccf;
+    --secondaryShade3: #6ed0be;
+    --secondaryShade2: #33ae98;
+    --secondaryShade1: #2e9d89;
+    --accentColor: #586994;
+    --accentShade5: #d1d6e1;
+    --accentShade4: #a3adc4;
+    --accentShade3: #7684a7;
+    --accentShade2: #49567a;
+    --accentShade1: #39435f;
+    --accent2Color: #8fe1a2;
+    --accent2Shade5: #d6f4dd;
+    --accent2Shade4: #c1eecc;
+    --accent2Shade3: #a3e6b2;
+    --accent2Shade2: #82cd94;
+    --accent2Shade1: #76b985;
+    --accent3Color: #fe938c;
+    --accent3Shade5: #fee1df;
+    --accent3Shade4: #fec4c0;
+    --accent3Shade3: #fea6a0;
+    --accent3Shade2: #e78680;
+    --accent3Shade1: #b96b66;
+    --canvasColor: #2a313b;
+    --backgroundColor: #2a313b;
+    --foregroundColor: #e3f2fd;
+    --primaryColor: #f95794;
+    --primaryShade5: #fdd1e1;
+    --primaryShade4: #fba3c4;
+    --primaryShade3: #fa75a7;
+    --primaryShade2: #e35087;
+    --primaryShade1: #b6406c;
+    --secondaryColor: #323da5;
+    --secondaryShade5: #c7cae6;
+    --secondaryShade4: #8f95cd;
+    --secondaryShade3: #6971bd;
+    --secondaryShade2: #2e3896;
+    --secondaryShade1: #293288;
+    --accentColor: #FFC729;
+    --accentShade5: #ffefc4;
+    --accentShade4: #ffe08a;
+    --accentShade3: #ffd14f;
+    --accentShade2: #e8b526;
+    --accentShade1: #d1a322;
+    --accent2Color: #53dd6c;
+    --accent2Shade5: #d0f5d6;
+    --accent2Shade4: #a1ecae;
+    --accent2Shade3: #72e386;
+    --accent2Shade2: #4cc963;
+    --accent2Shade1: #3da14f;
+    --accent3Color: #f52f57;
+    --accent3Shade5: #fcc6d1;
+    --accent3Shade4: #f98da3;
+    --accent3Shade3: #f65475;
+    --accent3Shade2: #df2b50;
+    --accent3Shade1: #b32340;
+}
+
+
+/*
+html{
+    font-size: 100% ;
+}
+100% = 16px
+1rem = 16px
+*/
+
+body {
+    font: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    background-color: var(--color-grey);
+    color: var(--color-dark-x);
+    letter-spacing: .05rem;
+}
+
+
+/*
+!important : para sobreescribir a las clases definidas Bootstrap
+*/
+
+html {
+    background-color: var(--HtmlColor);
+}
+
+body {
+    background-color: var(--BodyColor);
+}
+
+.logo {
+    width: 60;
+    padding-top: 1.0rem;
+}
+
+.font-weight-100 {
+    font-weight: 100;
+}
+
+.font-weight-300 {
+    font-weight: 300;
+}
+
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.font-size-1 {
+    font-size: 2rem;
+}
+
+.font-size-1-5 {
+    font-size: 1.5rem;
+}
+
+.font-size-2 {
+    font-size: 2rem;
+}
+
+.bg-light {
+    background-color: var(--color-light)!important;
+}
+
+.bg-dark {
+    background-color: var(--color-dark)!important;
+}
+
+.p-6 {
+    /* padding: 4rem 7rem; */
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+.contact-box {
+    padding: 0rem;
+}
+
+.btn {
+    font-weight: 400;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    min-width: 10rem;
+}
+
+.btn-bg {
+    border: none !important;
+    background-color: var(--BotonColor);
+    color: var(--color-light);
+}
+
+.btn-bg:hover {
+    background-color: var(--BotonColor2);
+    color: var(--color-grey);
+    border: none !important;
+}
+
+.btn-bg:focus {
+    background-color: var(--BotonColorFocus) !important;
+    color: var(--color-grey)!important;
+    border: none !important;
+}
+
+.float-left {
+    float: left;
+}
+
+
+/* button:focus{background-color:red !important;} */
+
+.btn-outline-dark {
+    border: 2px solid var(--color-dark-xx);
+}
+
+.btn-outline-light {
+    border: 2px solid var(--color-light);
+}
+
+.form-control {
+    background-color: var(--color-input);
+    border: 0.5px solid var(--color-grey);
+    border-radius: .2rem;
+    padding: 1rem .5rem;
+    font-weight: 700;
+}
+
+.form-controlSelect {
+    background-color: var(--color-input);
+    border: 0.5px solid var(--color-grey);
+    border-radius: .2rem;
+    padding: 0.35rem .5rem;
+    font-weight: 700;
+    width: 14em;
+}
+
+.register-bg {
+    background-image: url('images/sc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15vh;
+}
+
+.testimonial {
+    padding-top: 12.5rem;
+}
+
+@media (max-width: 1200px) {
+    .testimonial {
+        padding-top: 5rem;
+    }
+    .p-6 {
+        padding: 2rem;
+    }
+    .contact-box {
+        padding: 0;
+    }
+    .width-100 {
+        width: 100%;
+    }
+    .form-controlSelect {
+        width: 100%;
+    }
+    .logo {
+        /* width: 60px; */
+        padding-top: 1rem;
+    }
+    .register-bg {
+        height: 15vh;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .testimonial {
+        padding-top: 1rem;
+    }
+    .p-6 {
+        padding: 2rem;
+    }
+    .contact-box {
+        padding: 0;
+    }
+    .width-100 {
+        width: 100%;
+    }
+    .form-controlSelect {
+        width: 100%;
+    }
+    .logo {
+        /* width: 60px; */
+        padding-top: 1rem;
+    }
+    .register-bg {
+        height: 15vh;
+    }
+}
